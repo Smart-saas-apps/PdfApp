@@ -1,0 +1,12 @@
+{
+  "name": "base-webapp",
+  "version": "1.0.0",
+  "description": "A comprehensive web application template",
+  "scripts": {
+    "install-all": "concurrently \"cd frontend && npm install\" \"cd backend && npm install\"",
+    "dev": "concurrently \"cd frontend && npm start\" \"cd backend && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
